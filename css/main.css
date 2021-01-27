@@ -40,6 +40,11 @@ body {
   color: #818181;
 }
 
+.greenMediumFont {
+  color: #7CBB02;
+  font-size: 25px;
+}
+
 .green-link-bt {
   background-color: #7CBB02;
   padding: 10px;
@@ -148,12 +153,6 @@ header {
 
 /* Main */
 
-main {
-  /* Test */
-  background-color: red;
-  height: 900px;
-}
-
 .section-title {
   position: relative;
   width: 100%;
@@ -163,24 +162,63 @@ main {
   text-align: center;
 }
 
-.section-content {
-  /* test */
-  height: 300px;
-  background-color: pink;
-  margin-bottom: 4px;
+.section-content hr {
+  width: 40%;
+  margin: 0 auto;
 }
 
-.column {
+.column.w33 {
   float: left;
-  /* test */
-  /* height: 100%; */
-  /* padding: 40px; */
+  padding: 20px 30px;
 }
 
-/*test*/
-.row {
-  height: 100%;
+
+
+/* Top column */
+
+.image-box {
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
 }
+
+.img1 {
+  background-image: url("../img/profile.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img2 {
+  background-image: url("../img/computer.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img3 {
+  background-image: url("../img/doc.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Bottom column */
+.bot-column {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.bot-column > h3 {
+  margin: 10px 0;
+}
+
+.bot-column > .normalFont {
+  margin: 10px 0;
+}
+
+
+
 
 /* Footer */
 
