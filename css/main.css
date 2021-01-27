@@ -36,13 +36,22 @@ body {
   width: 50%;
 }
 
+.text-container {
+  width: 40%;
+}
+
 .normalFont {
   color: #818181;
 }
 
 .greenMediumFont {
   color: #7CBB02;
-  font-size: 25px;
+  font-size: 30px;
+}
+
+.blackBigFont {
+  color: #000;
+  font-size: 40px;
 }
 
 .green-link-bt {
@@ -134,12 +143,6 @@ header {
   float: right;
 }
 
-.header-text-cont {
-  width: 40%;
-  position: absolute;
-  bottom: 20%;
-}
-
 .bigText {
   color: #FFF;
   font-weight: 700;
@@ -147,7 +150,12 @@ header {
   margin-bottom: 40px;
 }
 
-.header-text-cont > .green-link-bt {
+header .text-container {
+  position: absolute;
+  bottom: 20%;
+}
+
+header .text-container > .green-link-bt {
   padding: 20px;
 }
 
@@ -162,22 +170,22 @@ header {
   text-align: center;
 }
 
-.section-content hr {
-  width: 40%;
-  margin: 0 auto;
+.section-content {
+  border-bottom: 1px solid #d3d3d3;
 }
 
-.column.w33 {
+.column {
   float: left;
+}
+/* Section 1 */
+.column.w33 {
   padding: 20px 30px;
 }
-
-
 
 /* Top column */
 
 .image-box {
-  width: 200px;
+  width: 100%;
   height: 300px;
   margin: 0 auto;
 }
@@ -203,6 +211,12 @@ header {
   background-position: center;
 }
 
+/* Hr */
+.section-content hr {
+  width: 40%;
+  margin: 0 auto;
+}
+
 /* Bottom column */
 .bot-column {
   margin-top: 10px;
@@ -218,7 +232,41 @@ header {
 }
 
 
+/* Section 2*/
 
+.column.w50 {
+  padding: 40px
+}
+
+.column.w50 > .box-image {
+  width: 100%;
+  height: 600px;
+  margin: 30px;
+}
+
+.img4 {
+  background-image: url("../img/mountain.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.column.w50 > .greenMediumFont {
+  color: #000;
+}
+
+.column.w50 .text-container {
+  width: 60%;
+  margin: 30px;
+}
+
+.column.w50  .blackBigFont {
+  margin-bottom: 20px;
+}
+
+.column.w50 .normalFont {
+  margin-bottom: 20px;
+}
 
 /* Footer */
 
