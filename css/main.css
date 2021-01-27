@@ -1,3 +1,5 @@
+/* Base CSS */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +13,7 @@
 }
 
 body {
-  background-color: red;
+  font-family: "Roboto", sans-serif;
 }
 
 .center-cont {
@@ -21,35 +23,91 @@ body {
 
 .w33 {
   width: calc(100% / 3);
-  /*test*/
 }
 
 .w50 {
   width: 50%;
 }
 
+.green-link-bt {
+  background-color: #7CBB02;
+  padding: 10px;
+  color: #FFF;
+  border-radius: 5px;
+}
+
+
+#login-link {
+  background-color: transparent;
+  padding: 10px 30px 10px;
+  color: #FFF;
+  border: 1px solid #FFF;
+  border-radius: 10px;
+}
+
 /* Header */
 
-nav {
-  /* Test */
-  height: 70px;
-  background-color: blue;
+header {
+  background-color: #0C325A;
 }
 
-header > div {
-  position: relative;
-  /* Test */
-  height: 400px;
-  background-color: green;
+/* Nav menu generals*/
+
+#nav-menu {
+  height: 80px;
+  line-height: 80px;
 }
 
-.header-text {
-  position: absolute;
-  bottom: 20%;
-  /* Test */
-  height: 200px;
-  width: 50%;
-  background-color: yellow;
+#nav-menu ul {
+  height: 100%;
+  float: left;
+}
+
+.nav-links li, .nav-signup li {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  list-style: none;
+}
+
+#nav-menu a {
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* Links ul */
+
+.nav-links {
+  width: 60%;
+}
+
+.nav-links li {
+  float: left;
+}
+
+.nav-links li:first-child {
+  padding-left: 0;
+  padding-right: 100px;
+}
+
+#logo {
+  vertical-align: sub;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+/* Signup ul */
+
+.nav-signup {
+  width: 40%;
+}
+
+.nav-signup li {
+  float: right;
 }
 
 /* Main */
@@ -77,11 +135,8 @@ main {
 .column {
   float: left;
   /* test */
-  height: 100%;
-  background-color: green;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-  padding: 40px;
+  /* height: 100%; */
+  /* padding: 40px; */
 }
 
 /*test*/
