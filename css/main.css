@@ -234,7 +234,7 @@ header .text-container > .green-link-bt {
 
 /* Section 2*/
 
-.column.w50 {
+.section-content .column.w50 {
   padding: 40px
 }
 
@@ -260,11 +260,11 @@ header .text-container > .green-link-bt {
   margin: 30px;
 }
 
-.column.w50  .blackBigFont {
+main .column.w50 .blackBigFont {
   margin-bottom: 20px;
 }
 
-.column.w50 .normalFont {
+main .column.w50 .normalFont {
   margin-bottom: 20px;
 }
 
@@ -272,11 +272,31 @@ header .text-container > .green-link-bt {
 
 footer {
   height: 100px;
-  /* test */
-  background-color: blue;
+  background-color: #D3D3D3;
+  line-height: 100px;
 }
 
-footer > div {
-  background-color: green;
-  height: 100%;
+#send_name {
+  margin-left: 20%;
+}
+
+.name-select {
+  width: 200px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #808080;
+}
+
+.name-select:focus {
+  outline: 0;
+}
+
+footer .green-link-bt {
+  border: 0;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+footer .green-link-bt:focus {
+  outline: 0;
 }
