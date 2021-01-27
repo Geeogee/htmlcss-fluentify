@@ -34,8 +34,9 @@ body {
   padding: 10px;
   color: #FFF;
   border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-
 
 #login-link {
   background-color: transparent;
@@ -49,6 +50,12 @@ body {
 
 header {
   background-color: #0C325A;
+  height: 700px;
+  background-image: url("../img/background-header.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: relative;
 }
 
 /* Nav menu generals*/
@@ -56,6 +63,7 @@ header {
 #nav-menu {
   height: 80px;
   line-height: 80px;
+  background-color: #0C325A;
 }
 
 #nav-menu ul {
@@ -110,11 +118,28 @@ header {
   float: right;
 }
 
+.header-text-cont {
+  width: 40%;
+  position: absolute;
+  bottom: 20%;
+}
+
+.bigText {
+  color: #FFF;
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.header-text-cont > .green-link-bt {
+  padding: 20px;
+}
+
 /* Main */
 
 main {
   /* Test */
-  background-color: #FFF;
+  background-color: #red;
   height: 900px;
 }
 
