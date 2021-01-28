@@ -117,7 +117,7 @@ header {
 .nav-links li, .nav-signup li {
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 14px;
+  font-size: 12px;
   list-style: none;
 }
 
@@ -139,6 +139,7 @@ header {
 }
 
 .nav-links li:first-child {
+  padding-top: 5px;
   padding-left: 0;
   padding-right: 100px;
 }
