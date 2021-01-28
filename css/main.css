@@ -110,7 +110,14 @@ header {
 
 #nav-menu ul {
   height: 100%;
+}
+
+.nav-links {
   float: left;
+}
+
+.nav-signup {
+  float: right;
 }
 
 .nav-links li, .nav-signup li {
@@ -128,10 +135,6 @@ header {
 }
 
 /* Links ul */
-
-.nav-links {
-  width: 60%;
-}
 
 .nav-links li {
   float: left;
@@ -152,10 +155,6 @@ header {
 }
 
 /* Signup ul */
-
-.nav-signup {
-  width: 40%;
-}
 
 .nav-signup li {
   float: right;
