@@ -116,7 +116,7 @@ header {
 .nav-links li, .nav-signup li {
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 12px;
+  font-size: calc(5px + 1vh);
   list-style: none;
 }
 
@@ -241,6 +241,7 @@ header .text-container > .green-link-bt {
 }
 
 .bot-column > h3 {
+  min-height: 60px;
   margin: 10px 0;
 }
 
